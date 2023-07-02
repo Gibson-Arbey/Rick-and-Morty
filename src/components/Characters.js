@@ -39,6 +39,10 @@ export const Characters = (props) => {
                 <span>Especie: </span>
                 <span>{character.species}</span>
               </p>
+              <p className="text-grey">
+                <span>Genero: </span>
+                <span>{character.gender}</span>
+              </p>
             </div>
           </div>
         ))}

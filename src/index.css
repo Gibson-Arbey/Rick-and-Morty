@@ -1,15 +1,19 @@
 body {
   margin: 0;
-  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Get Schwifty",  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "Get Schwifty"; 
+  src: url("./fonts/get_schwifty.ttf") format("truetype");
+}
+
+
 .title {
   color: #738f93;
   font-size: 40px;
-  font-family: fantasy, sans-serif;
   margin-bottom: 0;
 }
 
@@ -30,6 +34,7 @@ body {
   min-height: 2.778em;
   border: none;
   cursor: pointer;
+  font-family: "Get Schwifty",  sans-serif;
 }
 
 .btn-search:hover {
